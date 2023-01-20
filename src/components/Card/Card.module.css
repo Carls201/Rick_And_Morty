@@ -1,0 +1,39 @@
+.card{
+    border: solid .5rem #1a0321;
+    box-sizing: content-box;
+    display: inline-block;
+    background-color: #f3722c;
+    border-radius: 1rem;
+    margin: 4rem;
+    transition: all 400ms ease;
+    
+
+}
+
+.card:hover{
+    border-color: #a945c7;
+    transition: .1;
+    box-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7, 0 0 80px #a945c7;
+}
+
+.humanMale{
+    display: flex;
+    justify-content: center;
+    gap: 5rem
+}
+
+.btnClose{
+    display: flex;
+    justify-content: center;
+    background-color: #D62828;
+    color: white;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+
+.titleName{
+    text-decoration: none;
+    color: black;
+    position: absolute;
+}
+
